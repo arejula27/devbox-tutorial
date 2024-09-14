@@ -1,18 +1,18 @@
 {
-  "title": "Ubuntu Custom Content",
-  "description": "Write custom markdown for all phases",
+  "title": "Learn to manage dependencies with devbox",
+  "description": "Learn how to create isolated shells for development, use them locally, in yout CI/CD pipeline or in your production environment.",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro/text.md"
     },
     "steps": [
       {
         "title": "Let's update our package manager repository",
-        "text": "step1.md"
+        "text": "step1/text.md"
       }
     ],
     "finish": {
-      "text": "finish.md"
+      "text": "finish/text.md"
     }
   },
   "backend": {
