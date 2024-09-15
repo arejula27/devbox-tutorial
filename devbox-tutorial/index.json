@@ -13,7 +13,9 @@
       {
         "title": "First steps with devbox 2",
         "text": "step2/text.md",
+        "details":{
         "foreground": "step2/setup.sh"
+        }
       },
       {
         "title": "Understand the devbox configuration file",
