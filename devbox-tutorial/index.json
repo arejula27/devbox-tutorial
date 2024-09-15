@@ -7,8 +7,32 @@
     },
     "steps": [
       {
-        "title": "Let's update our package manager repository",
+        "title": "First steps with devbox 1",
         "text": "step1/text.md"
+      },
+      {
+        "title": "First steps with devbox 2",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Understand the devbox configuration file",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Create your own script",
+        "text": "step4/text.md"
+      },
+      {
+        "title": "Use devbox in your CI/CD pipeline",
+        "text": "step5/text.md"
+      },
+      {
+        "title": "Deploy services",
+        "text": "step6/text.md"
+      },
+      {
+        "title": "Create a new service",
+        "text": "step7/text.md"
       }
     ],
     "finish": {
