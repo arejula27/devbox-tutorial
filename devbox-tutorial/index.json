@@ -40,8 +40,8 @@
       "text": "finish/text.md"
     }
   },
-  "assets":{
-    "host01":[
+  "assets": {
+    "host01": [
       {"file":"main.py","target":"/greeter","chmod":"+w"}
     ]
   },
