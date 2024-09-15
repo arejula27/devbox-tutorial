@@ -42,7 +42,7 @@
   },
   "assets": {
     "host01": [
-      {"file":"main.py","target":"/greeter"}
+      {"file":"main.py","target":"/greeter"},
       {"file":"main.py","target":"/greet"}
     ]
   },
