@@ -42,7 +42,7 @@
   },
   "assets":{
     "host01":[
-      {"file":"greeter/","target":"~/","chmod":"+w"}
+      {"file":"greeter/**/*.*","target":"/greeter","chmod":"+w"}
     ]
   },
   "backend": {
