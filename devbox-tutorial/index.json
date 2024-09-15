@@ -42,7 +42,7 @@
   },
   "assets": {
     "host01": [
-      {"file":"*","target":"/","chmod":"+w"}
+      {"file":"main.py","target":"/greeter"}
     ]
   },
   "backend": {
