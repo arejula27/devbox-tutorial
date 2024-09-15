@@ -13,6 +13,7 @@
       {
         "title": "First steps with devbox 2",
         "text": "step2/text.md"
+        "foreground": "step2/setup.sh"
       },
       {
         "title": "Understand the devbox configuration file",
@@ -39,6 +40,12 @@
       "text": "finish/text.md"
     }
   },
+  "assets":{
+    "host01":[
+      {"file":"greeter/**/*","target":"greeter"}
+    ]
+  },
+  }
   "backend": {
     "imageid": "ubuntu"
   }
