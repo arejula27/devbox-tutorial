@@ -8,7 +8,7 @@ Install
 `curl -fsSL https://get.jetify.com/devbox | bash`{{exec}}
 
 
-Go to the following location where a python project is located `cd /greeter`{{exec}}
+Go to the following location where a python project is located `cd /app`{{exec}}
 
 `devbox run py`{{exec}}
 
