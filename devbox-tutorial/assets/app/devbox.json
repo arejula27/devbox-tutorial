@@ -8,8 +8,8 @@
     "scripts": {
       "py": [
         ". $VENV_DIR/bin/activate",
-        "if ! which fastapi > /dev/null 2>&1 ; then",
-        "pip install -r requirements.txt",
+        if [ ! -f "$VENV_DIR/bin/fastapi" ]; then
+          "pip install -r requirements.txt",
         "fi",
         "fastapi run main.py --port 1325",
       ],

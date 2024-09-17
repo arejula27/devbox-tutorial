@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /greeter
+cd /app
 devbox run test
