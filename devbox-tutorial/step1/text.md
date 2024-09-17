@@ -6,3 +6,4 @@ Try to run a prgram I that requires python3.12.  It is not installed. Go next
 
 
 `pip install -r requirements.txt`{{exec}}
+`fastapi run main.py --port 1325`{{exec}}
