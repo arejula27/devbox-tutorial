@@ -42,7 +42,7 @@
   },
   "assets": {
     "host01": [
-      {"file":"main.py","target":"/greeter"},
+      {"file":"greeter/main.py","target":"/greeter"},
       {"file": "conf.yaml", "target": "/my/location", "chmod": "+w"}
     ]
   },
