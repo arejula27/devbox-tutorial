@@ -9,9 +9,9 @@
       "py": [
         ". $VENV_DIR/bin/activate",
         "if ! which fastapi > /dev/null 2>&1 ; then",
-        "pip install -r python/requirements.txt",
+        "pip install -r requirements.txt",
         "fi",
-        "fastapi run python/main.py --port 1325",
+        "fastapi run main.py --port 1325",
       ],
     },
   },
