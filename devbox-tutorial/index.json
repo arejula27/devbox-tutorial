@@ -17,11 +17,11 @@
       {
         "title": "Understand the devbox configuration file",
         "text": "step3/text.md",
-        "verify": "step3/verify.sh"
       },
       {
         "title": "Create your own script",
         "text": "step4/text.md"
+        "verify": "step4/verify.sh"
       },
       {
         "title": "Use devbox in your CI/CD pipeline",
