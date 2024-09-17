@@ -10,8 +10,9 @@ Local
 
 ```bash
 python --version
-```{{exec}}
+``` {{exec}}
 Devbox
+
 ```bash
 devbox shell
 python --version
