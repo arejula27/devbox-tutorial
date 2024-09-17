@@ -4,9 +4,14 @@ Wait until devops is installed and try to run the program again after installing
 A python project should be here, it should devbox preconfigured and the user should do `devbox shell` and python main.py
 
 ## Bla bla
+
+Install
+`curl -fsSL https://get.jetify.com/devbox | bash`{{exec}}
+
+
 Go to the following location where a python project is located `cd /greeter`{{exec}}
 
-`devbox run py`
+`devbox run py`{{exec}
 
 [web page]({{TRAFFIC_HOST1_1325}})
 
