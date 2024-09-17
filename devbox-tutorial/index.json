@@ -38,13 +38,12 @@
     ],
     "finish": {
       "text": "finish/text.md"
+    },
+    "assets": {
+      "host01": [
+        {"file":"greeter/main.py","target":"/greeter"}
+      ]
     }
-  },
-  "assets": {
-    "host01": [
-      {"file":"greeter/main.py","target":"/greeter"},
-      {"file": "conf.yaml", "target": "/my/location", "chmod": "+w"}
-    ]
   },
   "backend": {
     "imageid": "ubuntu"
