@@ -8,5 +8,5 @@ Go to the following location where a python project is located `cd /greeter`{{ex
 
 `devbox run py`
 
-{{TRAFFIC_HOST1_1325}}
+[web page]{{TRAFFIC_HOST1_1325}}
 
