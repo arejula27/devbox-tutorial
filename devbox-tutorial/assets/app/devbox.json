@@ -8,7 +8,7 @@
     "scripts": {
       "py": [
         ". $VENV_DIR/bin/activate",
-        if [ ! -f "$VENV_DIR/bin/fastapi" ]; then
+        "if [ ! -f $VENV_DIR/bin/fastapi ]; then",
           "pip install -r requirements.txt",
         "fi",
         "fastapi run main.py --port 1325",
