@@ -41,7 +41,7 @@
     },
     "assets": {
       "host01": [
-        {"file":"greeter/*","target":"/greeter"}
+        {"file":"greeter/**/*.*","target":"/greeter"}
       ]
     }
   },
