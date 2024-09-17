@@ -16,11 +16,11 @@
       },
       {
         "title": "Understand the devbox configuration file",
-        "text": "step3/text.md",
+        "text": "step3/text.md"
       },
       {
         "title": "Create your own script",
-        "text": "step4/text.md"
+        "text": "step4/text.md",
         "verify": "step4/verify.sh"
       },
       {
