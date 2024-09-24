@@ -6,7 +6,6 @@ Explain the user how to create a script in devbox.json and how to run it. The st
 "scripts": {
     ...
     "test": [
-        ". $VENV_DIR/bin/activate", 
         "pytest"
     ],
 }
