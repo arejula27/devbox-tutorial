@@ -20,21 +20,17 @@
         "text": "step3/text.md"
       },
       {
-        "title": "Create your own script",
-        "text": "step4/text.md",
-        "verify": "step4/verify.sh"
+        "title": "Create your own script, part 1",
+        "text": "step4/text.md"
+      },
+      {
+        "title": "Create your own script, part 2",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
       },
       {
         "title": "Use devbox in your CI/CD pipeline",
-        "text": "step5/text.md"
-      },
-      {
-        "title": "Deploy services",
         "text": "step6/text.md"
-      },
-      {
-        "title": "Create a new service",
-        "text": "step7/text.md"
       }
     ],
     "finish": {
