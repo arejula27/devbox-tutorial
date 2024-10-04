@@ -15,7 +15,7 @@ cd /app
 devbox run py
 ```{{exec}}
 
-Again, remember to enter so the installation of the requirements start. 
+Again, remember to press enter so the installation of the requirements start. 
 
 Okay, so you might have a lot of questions of what we have actually done now. Why didn't we have to install the requirements? What is this command we just executed? Where is it defined? What does it actually do?
 
