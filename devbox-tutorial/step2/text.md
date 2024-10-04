@@ -3,7 +3,7 @@
 To create virtual environments, we are going to use DevBox. Before you read how it works, let's install it, so we don't have to wait afterwards:
 
 ```Bash
-curl -fsSL https://get.jetify.com/devbox
+curl -fsSL https://get.jetify.com/devbox | bash
 ```{{exec}}
 
 Remember to say yes to the installation!
