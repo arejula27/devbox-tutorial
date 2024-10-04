@@ -1,7 +1,7 @@
 
 # First steps
 
-Okay, The first thing we want to do is to try and run a code that requires python3.12. Let's install all the requirements:
+Okay, The first thing we will to do is to try and run a code that creates a simple website with the text "Hello world" written on it. We have decided to use a tool that needs python3.12. To run it, let's first install all the requirements:
 
 ```bash
 cd /app
@@ -14,7 +14,7 @@ We already see an error popping out in red. It says that some package needs a ve
 python --version
 ```{{exec}}
 
-Even though we have this problem, lets actually see if the program works:
+Even though we have this problem, let's actually see if the program works:
 
 ```bash
 fastapi run main.py --port 1325
