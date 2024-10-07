@@ -2,7 +2,7 @@
 
 ### Welcome to our executable tutorial!
 
-We are going to talk about DevBox, a tool that creates isolated environments for any kind of project, allowing you to install packages and accelerate the processes of your project.
+We’ll introduce DevBox, a tool that simplifies onboarding for new developers by creating isolated environments for any project. With DevBox, all dependencies are installed automatically, and scripts for compiling or generating documentation are readily available. This eliminates the need for manual configuration, accelerating project workflows.
 
 Just as a reminder, environments are isolated spaces where you can choose which packages to include.
 
