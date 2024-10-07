@@ -17,6 +17,7 @@ We are currently outside of the environment since DevBox only keeps it open whil
 ```bash
 python --version
 ```{{exec}}
+(If you see 3.12 is because you did not exit corretly the shell in the previous step, just run `exit`{{exec}} and try again)
 
 Oh, what a surprise—it hasn’t changed.
 Let’s enter the DevBox environment and check the Python version again:
