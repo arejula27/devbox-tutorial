@@ -16,9 +16,7 @@ exit
 
 Again, remember to press enter so the installation of the requirements begins. This will take 2-3 minutes, so you can continue reading while the process of installing Nix completes.
 
-You might have a lot of questions about what we’ve just done. Why didn’t we have to install the requirements manually? What is this command we executed? Where is it defined? What does it actually do?
-
-To answer all these questions, we’d like to show you the file where it's defined, but since we have to wait for the installation of the requirements and the execution of the program, let’s try to understand it before looking at the file.
+You might have a lot of questions about what we’ve just done. Why didn’t we have to install the requirements manually?
 
 You can think of DevBox as a package manager, though that’s not its primary purpose. It actually uses the Nix package manager (which is not installed by default, so it’s being installed right now). To add new packages to your environment, you can search for them at https://search.nixos.org/packages. Then, you can add them simply by using `devbox add <package>`{{}}.
 
