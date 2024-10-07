@@ -1,26 +1,26 @@
-# First steps
+# First Steps
 
-Okay, the first thing we will do is try to run some code that creates a simple website with the text "Hello world" displayed on it. We have decided to use a tool that requires Python 3.12. To run it, let's first install all the requirements:
+Before using DevBox, let’s explore why we need it. Imagine that you are joining an ongoing project that is developing an API in Python. You have an Ubuntu computer with Python installed. Let’s try to install all the requirements and run it:
 
 ```bash
 cd /app
 pip install -r requirements.txt
 ```{{exec}}
 
-We already see an error popping up in red. It says a package requires a specific version of `click` (a Python package) and we currently have an older one. This might be due to us having a lower version of Python. Let's check which version we have:
-
-```bash
-python --version
-```{{exec}}
-
-Even though we have this problem, let's actually see if the program works:
+Even though we encounter an error, let's see if the program works:
 
 ```bash
 fastapi run main.py --port 1325
 ```{{exec}}
 
-As expected, it doesn't run. So, what can we do to solve this?
+As expected, it doesn't run. This is because the dependencies used in the project require at least Python 3.12. You can check which version of Python is provided by Ubuntu with the following command:
 
-As we know, changing the version of Python in our global environment is very difficult and dangerous, as it can break the other applications you already have with the older version. Instead of that nearly suicidal idea, we can create a virtual environment and set the specific version of Python we need there.
+```bash
+python --version
+```{{exec}}
+
+As you can see, we do not have the correct version. So, what can we do to solve this?
+
+Changing the version of Python in our global environment is very difficult and risky, as it can break other applications that rely on the older version. Instead of that nearly suicidal idea, we can create a virtual environment and set the specific version of Python we need there.
 
 Let's give it a try!
