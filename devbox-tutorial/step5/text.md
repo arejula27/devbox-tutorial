@@ -20,6 +20,8 @@ This should still be part of the values of "scripts", as shown below:
     ],
 }
 ``` 
+We mentioned the `init_hook` before, but now we are not writing it explicitly. This is because it will be automatically executed before all scripts, including the new one you have just created. This means that before running `pytest`, the init hook will activate the Python virtual environment and then execute `pytest`.
+
 
 Now that you’ve done that, just save and exit (Ctrl+O, Enter, Ctrl+X).
 
@@ -29,4 +31,4 @@ You should see that the test passed!
 
 We just have one thing left—learning how to integrate these scripts into GitHub Actions. Let’s dive right into it!
 
-By the way, the button to continue checks if you have modified the script correctly. If you don’t pass the check, review the devbox.json file, but if you can run the devbox run test{{exec}} command successfully, you’re all set.
+By the way, the button to continue checks if you have modified the script correctly. If you don’t pass the check, review the devbox.json file, but if you can run the `devbox run test`{{exec}} command successfully, you’re all set.
